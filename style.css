@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+table{
+  
+    border-collapse: collapse;
+    max-width: 400px;
+    width: 100%;
+    border-bottom: 3px solid rgb(19, 152, 121);
+
+}
+
+table,tr,td{
+/* border: 3px solid black; */
+
+}
+
+thead{
+    background-color: rgb(19, 152, 121);
+}
+
+tr:nth-child(even){
+background-color: rgb(242, 242, 242);
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+}
+
+tbody tr:hover td{
+
+    color: rgb(19, 152, 121);
+    }
+
+td{
+    padding: 10px;
+}
+thead td {
+    color: white;
+}
+
+.tableHolder{
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+}
